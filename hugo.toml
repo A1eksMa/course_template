@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'ru-ru'
+title = 'Шаблон курса'
+theme = [
+  "github.com/onweru/compose",
+]
+
+[params]
+  docSections = ["intro", "theme_01", "theme_02", "theme_03", "themes", "outro"]
+  [params.source]
+    name = "GitHub"
+    iconLight = "images/GitHubMarkLight.svg"
+    iconDark = "images/GitHubMarkDark.svg"
+    url = "https://github.com/"
+
+[logo]
+text = "Home"

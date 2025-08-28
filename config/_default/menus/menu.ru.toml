@@ -1,0 +1,4 @@
+[[main]]
+  name = "Оглавление"
+  weight = 1
+  url = "/themes/"
